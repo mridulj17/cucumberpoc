@@ -8,5 +8,5 @@ Feature: Search google for other languages
     Examples:
       |text   |result|
       |python |Welcome to Python.org|
-      |groovy |The Apache Groovy programming language|
+      |angularjs |AngularJS — Superheroic JavaScript MVW Framework|
       |ruby   |Download Ruby - Ruby Programming Language|

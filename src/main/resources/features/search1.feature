@@ -1,9 +1,9 @@
 Feature: Search google for Java
   Scenario Outline: Perform google search based on the data
     Given I am on the HomePage
-    When I type in the text java
+    When I type in the text <text>
     And click on the search button
-    Then the first link should contain the result java.com: Java + You
+    Then the first link should contain the result <result>
 
     Examples:
       | text | result|

@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(format = {"pretty", "html:target/destination"},
         features = {"/home/stealth17/IdeaProjects/cucumberpoc2/src/main/resources/features/search1.feature"
-                //,"/home/stealth17/IdeaProjects/cucumberpoc2/src/main/resources/features/search2.feature"
+                        ,"/home/stealth17/IdeaProjects/cucumberpoc2/src/main/resources/features/search2.feature"
         },
         glue ={"com.automation.business.cucumber.stepdefinitions"})
 public class DefaultRunner {
