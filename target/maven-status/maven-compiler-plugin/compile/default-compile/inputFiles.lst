@@ -1,0 +1,7 @@
+/home/stealth17/IdeaProjects/cucumberpoc2/src/main/java/com/automation/business/domain/webdriver/pageobjects/AbstractPage.java
+/home/stealth17/IdeaProjects/cucumberpoc2/src/main/java/com/automation/business/domain/webdriver/pageobjects/GoogleHomePage.java
+/home/stealth17/IdeaProjects/cucumberpoc2/src/main/java/com/automation/spring/configuration/DefaultConfiguration.java
+/home/stealth17/IdeaProjects/cucumberpoc2/src/main/java/com/automation/business/cucumber/stepdefinitions/SearchStepDefinition.java
+/home/stealth17/IdeaProjects/cucumberpoc2/src/main/java/com/automation/business/cucumber/runners/DefaultRunner.java
+/home/stealth17/IdeaProjects/cucumberpoc2/src/main/java/com/automation/spring/configuration/SpringIntegrationTest.java
+/home/stealth17/IdeaProjects/cucumberpoc2/src/main/java/com/automation/business/domain/webdriver/pageobjects/GoogleSearchPage.java
