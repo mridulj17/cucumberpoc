@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.automation.business.cucumber.parallel.Parallel03IT
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.144 s - in com.automation.business.cucumber.parallel.Parallel03IT

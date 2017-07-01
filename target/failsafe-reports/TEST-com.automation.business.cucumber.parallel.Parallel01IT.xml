@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="com.automation.business.cucumber.parallel.Parallel01IT" time="6.533" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="com.automation.business.cucumber.parallel.Parallel01IT" time="13.911" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.1.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -60,9 +60,9 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Given I am on the HomePage" classname="| java | java.com: Java + You |" time="0.001"/>
+  <testcase name="Given I am on the HomePage" classname="| java | java.com: Java + You |" time="0"/>
   <testcase name="When I type in the text java" classname="| java | java.com: Java + You |" time="0"/>
   <testcase name="And click on the search button" classname="| java | java.com: Java + You |" time="0"/>
   <testcase name="Then the first link should contain the result java.com: Java + You" classname="| java | java.com: Java + You |" time="0"/>
-  <testcase name="| java | java.com: Java + You |" classname="| java | java.com: Java + You |" time="0"/>
+  <testcase name="| java | java.com: Java + You |" classname="| java | java.com: Java + You |" time="0.01"/>
 </testsuite>

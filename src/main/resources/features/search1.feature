@@ -1,4 +1,5 @@
 Feature: Search google for Java
+  @Final
   Scenario Outline: Perform google search based on the data
     Given I am on the HomePage
     When I type in the text <text>

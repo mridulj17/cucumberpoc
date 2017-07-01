@@ -7,5 +7,6 @@ Feature: Search google for Java
     Then the first link should contain the result <result>
 
     Examples:
-      | text | result|
-      | java |java.com: Java + You|
+      |text   |result|
+      |javascript |JavaScript|
+      |scala |The Scala Programming Language|

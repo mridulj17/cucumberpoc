@@ -6,11 +6,11 @@
         "line": 11,
         "name": "Perform google search based on the data",
         "description": "",
-        "id": "search-google-for-other-languages;perform-google-search-based-on-the-data;;2",
+        "id": "search-google-for-java;perform-google-search-based-on-the-data;;2",
         "after": [
           {
             "result": {
-              "duration": 619384,
+              "duration": 467900,
               "status": "passed"
             },
             "match": {
@@ -23,7 +23,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5605145899,
+              "duration": 6273210813,
               "status": "passed"
             },
             "line": 4,
@@ -35,15 +35,15 @@
           },
           {
             "result": {
-              "duration": 292381568,
+              "duration": 762325283,
               "status": "passed"
             },
             "line": 5,
-            "name": "I type in the text python",
+            "name": "I type in the text javascript",
             "match": {
               "arguments": [
                 {
-                  "val": "python",
+                  "val": "javascript",
                   "offset": 19
                 }
               ],
@@ -56,7 +56,7 @@
           },
           {
             "result": {
-              "duration": 73136638,
+              "duration": 124372854,
               "status": "passed"
             },
             "line": 6,
@@ -68,15 +68,15 @@
           },
           {
             "result": {
-              "duration": 1071840561,
+              "duration": 1309659547,
               "status": "passed"
             },
             "line": 7,
-            "name": "the first link should contain the result Welcome to Python.org",
+            "name": "the first link should contain the result JavaScript",
             "match": {
               "arguments": [
                 {
-                  "val": "Welcome to Python.org",
+                  "val": "JavaScript",
                   "offset": 41
                 }
               ],
@@ -99,11 +99,11 @@
         "line": 12,
         "name": "Perform google search based on the data",
         "description": "",
-        "id": "search-google-for-other-languages;perform-google-search-based-on-the-data;;3",
+        "id": "search-google-for-java;perform-google-search-based-on-the-data;;3",
         "after": [
           {
             "result": {
-              "duration": 122069,
+              "duration": 68332,
               "status": "passed"
             },
             "match": {
@@ -116,7 +116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 560516882,
+              "duration": 463389556,
               "status": "passed"
             },
             "line": 4,
@@ -128,15 +128,15 @@
           },
           {
             "result": {
-              "duration": 1197691800,
+              "duration": 408091499,
               "status": "passed"
             },
             "line": 5,
-            "name": "I type in the text angularjs",
+            "name": "I type in the text scala",
             "match": {
               "arguments": [
                 {
-                  "val": "angularjs",
+                  "val": "scala",
                   "offset": 19
                 }
               ],
@@ -149,7 +149,7 @@
           },
           {
             "result": {
-              "duration": 91964849,
+              "duration": 126493020,
               "status": "passed"
             },
             "line": 6,
@@ -161,108 +161,15 @@
           },
           {
             "result": {
-              "duration": 818411387,
+              "duration": 768970836,
               "status": "passed"
             },
             "line": 7,
-            "name": "the first link should contain the result AngularJS — Superheroic JavaScript MVW Framework",
+            "name": "the first link should contain the result The Scala Programming Language",
             "match": {
               "arguments": [
                 {
-                  "val": "AngularJS — Superheroic JavaScript MVW Framework",
-                  "offset": 41
-                }
-              ],
-              "location": "SearchStepDefinition.the_first_link_should_contain_the_result(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 2,
-            "name": "@Final"
-          }
-        ]
-      },
-      {
-        "line": 13,
-        "name": "Perform google search based on the data",
-        "description": "",
-        "id": "search-google-for-other-languages;perform-google-search-based-on-the-data;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 62646,
-              "status": "passed"
-            },
-            "match": {
-              "location": "SearchStepDefinition.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 284087952,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I am on the HomePage",
-            "match": {
-              "location": "SearchStepDefinition.i_am_on_the_HomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 606510265,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I type in the text ruby",
-            "match": {
-              "arguments": [
-                {
-                  "val": "ruby",
-                  "offset": 19
-                }
-              ],
-              "location": "SearchStepDefinition.i_type_in_the_text(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 47941460,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "click on the search button",
-            "match": {
-              "location": "SearchStepDefinition.click_on_the_search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1085831931,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "the first link should contain the result Download Ruby - Ruby Programming Language",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Download Ruby - Ruby Programming Language",
+                  "val": "The Scala Programming Language",
                   "offset": 41
                 }
               ],
@@ -282,10 +189,10 @@
         ]
       }
     ],
-    "name": "Search google for other languages",
+    "name": "Search google for Java",
     "description": "",
-    "id": "search-google-for-other-languages",
+    "id": "search-google-for-java",
     "keyword": "Feature",
-    "uri": "/home/stealth17/IdeaProjects/cucumberpoc2/src/main/resources/features/search2.feature"
+    "uri": "/home/stealth17/IdeaProjects/cucumberpoc2/src/main/resources/features/search3.feature"
   }
 ]

@@ -3,19 +3,30 @@
     "line": 1,
     "elements": [
       {
-        "line": 10,
+        "line": 11,
         "name": "Perform google search based on the data",
         "description": "",
         "id": "search-google-for-java;perform-google-search-based-on-the-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 645192,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1063101930,
+              "duration": 6551993493,
               "status": "passed"
             },
-            "line": 3,
+            "line": 4,
             "name": "I am on the HomePage",
             "match": {
               "location": "SearchStepDefinition.i_am_on_the_HomePage()"
@@ -24,10 +35,10 @@
           },
           {
             "result": {
-              "duration": 221459436,
+              "duration": 337514228,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I type in the text java",
             "match": {
               "arguments": [
@@ -45,10 +56,10 @@
           },
           {
             "result": {
-              "duration": 52590122,
+              "duration": 143357241,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "click on the search button",
             "match": {
               "location": "SearchStepDefinition.click_on_the_search_button()"
@@ -57,10 +68,10 @@
           },
           {
             "result": {
-              "duration": 859110226,
+              "duration": 1543074467,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "the first link should contain the result java.com: Java + You",
             "match": {
               "arguments": [
@@ -75,6 +86,12 @@
               1
             ],
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Final"
           }
         ]
       }
