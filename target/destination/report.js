@@ -97,7 +97,7 @@ formatter.match({
   "location": "SearchStepDefinition.i_am_on_the_HomePage()"
 });
 formatter.result({
-  "duration": 1087388530,
+  "duration": 5948316990,
   "status": "passed"
 });
 formatter.match({
@@ -110,14 +110,14 @@ formatter.match({
   "location": "SearchStepDefinition.i_type_in_the_text(String)"
 });
 formatter.result({
-  "duration": 288943241,
+  "duration": 188017344,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchStepDefinition.click_on_the_search_button()"
 });
 formatter.result({
-  "duration": 83224893,
+  "duration": 77706736,
   "status": "passed"
 });
 formatter.match({
@@ -130,7 +130,7 @@ formatter.match({
   "location": "SearchStepDefinition.the_first_link_should_contain_the_result(String)"
 });
 formatter.result({
-  "duration": 744521396,
+  "duration": 1114979003,
   "status": "passed"
 });
 formatter.uri("/home/stealth17/IdeaProjects/cucumberpoc2/src/main/resources/features/search2.feature");
@@ -142,35 +142,41 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "line": 2,
+  "line": 3,
   "name": "Perform google search based on the data",
   "description": "",
   "id": "search-google-for-other-languages;perform-google-search-based-on-the-data",
   "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 2,
+      "name": "@Final"
+    }
+  ]
 });
 formatter.step({
-  "line": 3,
+  "line": 4,
   "name": "I am on the HomePage",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "I type in the text \u003ctext\u003e",
   "keyword": "When "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "click on the search button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "the first link should contain the result \u003cresult\u003e",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 8,
+  "line": 9,
   "name": "",
   "description": "",
   "id": "search-google-for-other-languages;perform-google-search-based-on-the-data;",
@@ -180,7 +186,7 @@ formatter.examples({
         "text",
         "result"
       ],
-      "line": 9,
+      "line": 10,
       "id": "search-google-for-other-languages;perform-google-search-based-on-the-data;;1"
     },
     {
@@ -188,7 +194,7 @@ formatter.examples({
         "python",
         "Welcome to Python.org"
       ],
-      "line": 10,
+      "line": 11,
       "id": "search-google-for-other-languages;perform-google-search-based-on-the-data;;2"
     },
     {
@@ -196,7 +202,7 @@ formatter.examples({
         "angularjs",
         "AngularJS — Superheroic JavaScript MVW Framework"
       ],
-      "line": 11,
+      "line": 12,
       "id": "search-google-for-other-languages;perform-google-search-based-on-the-data;;3"
     },
     {
@@ -204,27 +210,33 @@ formatter.examples({
         "ruby",
         "Download Ruby - Ruby Programming Language"
       ],
-      "line": 12,
+      "line": 13,
       "id": "search-google-for-other-languages;perform-google-search-based-on-the-data;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 10,
+  "line": 11,
   "name": "Perform google search based on the data",
   "description": "",
   "id": "search-google-for-other-languages;perform-google-search-based-on-the-data;;2",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 2,
+      "name": "@Final"
+    }
+  ]
 });
 formatter.step({
-  "line": 3,
+  "line": 4,
   "name": "I am on the HomePage",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "I type in the text python",
   "matchedColumns": [
     0
@@ -232,12 +244,12 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "click on the search button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "the first link should contain the result Welcome to Python.org",
   "matchedColumns": [
     1
@@ -248,7 +260,7 @@ formatter.match({
   "location": "SearchStepDefinition.i_am_on_the_HomePage()"
 });
 formatter.result({
-  "duration": 248531201,
+  "duration": 235800489,
   "status": "passed"
 });
 formatter.match({
@@ -261,14 +273,14 @@ formatter.match({
   "location": "SearchStepDefinition.i_type_in_the_text(String)"
 });
 formatter.result({
-  "duration": 561467267,
+  "duration": 402776875,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchStepDefinition.click_on_the_search_button()"
 });
 formatter.result({
-  "duration": 58041987,
+  "duration": 54362434,
   "status": "passed"
 });
 formatter.match({
@@ -281,24 +293,34 @@ formatter.match({
   "location": "SearchStepDefinition.the_first_link_should_contain_the_result(String)"
 });
 formatter.result({
-  "duration": 700191082,
+  "duration": 1083173798,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 502164,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 11,
+  "line": 12,
   "name": "Perform google search based on the data",
   "description": "",
   "id": "search-google-for-other-languages;perform-google-search-based-on-the-data;;3",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 2,
+      "name": "@Final"
+    }
+  ]
 });
 formatter.step({
-  "line": 3,
+  "line": 4,
   "name": "I am on the HomePage",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "I type in the text angularjs",
   "matchedColumns": [
     0
@@ -306,12 +328,12 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "click on the search button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "the first link should contain the result AngularJS — Superheroic JavaScript MVW Framework",
   "matchedColumns": [
     1
@@ -322,7 +344,7 @@ formatter.match({
   "location": "SearchStepDefinition.i_am_on_the_HomePage()"
 });
 formatter.result({
-  "duration": 217109608,
+  "duration": 216069974,
   "status": "passed"
 });
 formatter.match({
@@ -335,14 +357,14 @@ formatter.match({
   "location": "SearchStepDefinition.i_type_in_the_text(String)"
 });
 formatter.result({
-  "duration": 539272394,
+  "duration": 418093001,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchStepDefinition.click_on_the_search_button()"
 });
 formatter.result({
-  "duration": 54597631,
+  "duration": 52144178,
   "status": "passed"
 });
 formatter.match({
@@ -355,24 +377,34 @@ formatter.match({
   "location": "SearchStepDefinition.the_first_link_should_contain_the_result(String)"
 });
 formatter.result({
-  "duration": 653785748,
+  "duration": 593966913,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 69305,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 12,
+  "line": 13,
   "name": "Perform google search based on the data",
   "description": "",
   "id": "search-google-for-other-languages;perform-google-search-based-on-the-data;;4",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 2,
+      "name": "@Final"
+    }
+  ]
 });
 formatter.step({
-  "line": 3,
+  "line": 4,
   "name": "I am on the HomePage",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "I type in the text ruby",
   "matchedColumns": [
     0
@@ -380,12 +412,12 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "click on the search button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "the first link should contain the result Download Ruby - Ruby Programming Language",
   "matchedColumns": [
     1
@@ -396,7 +428,7 @@ formatter.match({
   "location": "SearchStepDefinition.i_am_on_the_HomePage()"
 });
 formatter.result({
-  "duration": 205388839,
+  "duration": 201716311,
   "status": "passed"
 });
 formatter.match({
@@ -409,14 +441,14 @@ formatter.match({
   "location": "SearchStepDefinition.i_type_in_the_text(String)"
 });
 formatter.result({
-  "duration": 391815428,
+  "duration": 379904057,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchStepDefinition.click_on_the_search_button()"
 });
 formatter.result({
-  "duration": 64382078,
+  "duration": 67256808,
   "status": "passed"
 });
 formatter.match({
@@ -429,7 +461,11 @@ formatter.match({
   "location": "SearchStepDefinition.the_first_link_should_contain_the_result(String)"
 });
 formatter.result({
-  "duration": 1100315615,
+  "duration": 1117523801,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 75505,
   "status": "passed"
 });
 });
