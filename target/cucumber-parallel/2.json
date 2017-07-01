@@ -10,7 +10,7 @@
         "after": [
           {
             "result": {
-              "duration": 630276,
+              "duration": 574505,
               "status": "passed"
             },
             "match": {
@@ -23,7 +23,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5558490364,
+              "duration": 857481109,
               "status": "passed"
             },
             "line": 4,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 270451344,
+              "duration": 223177888,
               "status": "passed"
             },
             "line": 5,
@@ -56,7 +56,7 @@
           },
           {
             "result": {
-              "duration": 46180562,
+              "duration": 55791837,
               "status": "passed"
             },
             "line": 6,
@@ -68,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 648416615,
+              "duration": 1267860033,
               "status": "passed"
             },
             "line": 7,
@@ -77,6 +77,192 @@
               "arguments": [
                 {
                   "val": "Welcome to Python.org",
+                  "offset": 41
+                }
+              ],
+              "location": "SearchStepDefinition.the_first_link_should_contain_the_result(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Final"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Perform google search based on the data",
+        "description": "",
+        "id": "search-google-for-other-languages;perform-google-search-based-on-the-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 83257,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 214840202,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the HomePage",
+            "match": {
+              "location": "SearchStepDefinition.i_am_on_the_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 520288271,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I type in the text angularjs",
+            "match": {
+              "arguments": [
+                {
+                  "val": "angularjs",
+                  "offset": 19
+                }
+              ],
+              "location": "SearchStepDefinition.i_type_in_the_text(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53006312,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on the search button",
+            "match": {
+              "location": "SearchStepDefinition.click_on_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 694376760,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the first link should contain the result AngularJS — Superheroic JavaScript MVW Framework",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AngularJS — Superheroic JavaScript MVW Framework",
+                  "offset": 41
+                }
+              ],
+              "location": "SearchStepDefinition.the_first_link_should_contain_the_result(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Final"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Perform google search based on the data",
+        "description": "",
+        "id": "search-google-for-other-languages;perform-google-search-based-on-the-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 102246,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 202875134,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the HomePage",
+            "match": {
+              "location": "SearchStepDefinition.i_am_on_the_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 383370928,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I type in the text ruby",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ruby",
+                  "offset": 19
+                }
+              ],
+              "location": "SearchStepDefinition.i_type_in_the_text(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47495195,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on the search button",
+            "match": {
+              "location": "SearchStepDefinition.click_on_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1133384268,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the first link should contain the result Download Ruby - Ruby Programming Language",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Download Ruby - Ruby Programming Language",
                   "offset": 41
                 }
               ],

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="com.automation.business.cucumber.parallel.Parallel02IT" time="9.3" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="com.automation.business.cucumber.parallel.Parallel02IT" time="8.228" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.1.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -65,4 +65,14 @@
   <testcase name="And click on the search button" classname="| python | Welcome to Python.org |" time="0"/>
   <testcase name="Then the first link should contain the result Welcome to Python.org" classname="| python | Welcome to Python.org |" time="0"/>
   <testcase name="| python | Welcome to Python.org |" classname="| python | Welcome to Python.org |" time="0.002"/>
+  <testcase name="Given I am on the HomePage" classname="| angularjs | AngularJS — Superheroic JavaScript MVW Framework |" time="0"/>
+  <testcase name="When I type in the text angularjs" classname="| angularjs | AngularJS — Superheroic JavaScript MVW Framework |" time="0"/>
+  <testcase name="And click on the search button" classname="| angularjs | AngularJS — Superheroic JavaScript MVW Framework |" time="0"/>
+  <testcase name="Then the first link should contain the result AngularJS — Superheroic JavaScript MVW Framework" classname="| angularjs | AngularJS — Superheroic JavaScript MVW Framework |" time="0"/>
+  <testcase name="| angularjs | AngularJS — Superheroic JavaScript MVW Framework |" classname="| angularjs | AngularJS — Superheroic JavaScript MVW Framework |" time="0.001"/>
+  <testcase name="Given I am on the HomePage" classname="| ruby | Download Ruby - Ruby Programming Language |" time="0"/>
+  <testcase name="When I type in the text ruby" classname="| ruby | Download Ruby - Ruby Programming Language |" time="0"/>
+  <testcase name="And click on the search button" classname="| ruby | Download Ruby - Ruby Programming Language |" time="0"/>
+  <testcase name="Then the first link should contain the result Download Ruby - Ruby Programming Language" classname="| ruby | Download Ruby - Ruby Programming Language |" time="0"/>
+  <testcase name="| ruby | Download Ruby - Ruby Programming Language |" classname="| ruby | Download Ruby - Ruby Programming Language |" time="0.001"/>
 </testsuite>
