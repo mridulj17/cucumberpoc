@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Perform google search based on the data",
+        "description": "",
+        "id": "search-google-for-java;perform-google-search-based-on-the-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 208478476,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on the HomePage",
+            "match": {
+              "location": "SearchStepDefinition.i_am_on_the_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 362715547,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I type in the text java",
+            "match": {
+              "arguments": [
+                {
+                  "val": "java",
+                  "offset": 19
+                }
+              ],
+              "location": "SearchStepDefinition.i_type_in_the_text(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40021413,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on the search button",
+            "match": {
+              "location": "SearchStepDefinition.click_on_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 766662915,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the first link should contain the result java.com: Java + You",
+            "match": {
+              "arguments": [
+                {
+                  "val": "java.com: Java + You",
+                  "offset": 41
+                }
+              ],
+              "location": "SearchStepDefinition.the_first_link_should_contain_the_result(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search google for Java",
+    "description": "",
+    "id": "search-google-for-java",
+    "keyword": "Feature",
+    "uri": "/home/stealth17/IdeaProjects/cucumberpoc2/src/main/resources/features/search1.feature"
+  }
+]
